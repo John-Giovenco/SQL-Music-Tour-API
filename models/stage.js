@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
           as: 'set_times'
         })
       }
-    }
+    } 
   Stage.init({
     stage_id: {
       type: DataTypes.INTEGER,
